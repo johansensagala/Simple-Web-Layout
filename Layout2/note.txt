@@ -1,0 +1,1 @@
+Only simple design for informative web like blogspot. Consists by 4 main part: header, hero, content, and footer.

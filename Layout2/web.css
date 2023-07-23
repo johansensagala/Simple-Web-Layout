@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #787878;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+}
+
+.website {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header ul {
+    height: 25px;
+    margin: 0;
+    line-height: 25px;
+}
+
+.header ul li {
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    text-decoration: none;
+    margin: -2.5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #616161;
+    padding: 5px;
+}
+
+.header ul li a:hover {
+    background-color: #787878;
+    color: white;
+}
+
+.hero {
+    background-image: url(photos/pexels-andrea-piacquadio-716411.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.judul {
+    font-size: large;
+    font-weight: bold;
+}
+
+.subjudul {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+p {
+    font: 16px/30px Times;
+    margin-bottom: 20px;
+}
+
+.content1 {
+    margin: 10px 0;
+    padding: 20px;
+    width: 800px;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content2 {
+    margin: 10px 0;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.profilepicture {
+    float: left;
+    margin-right: 10px;
+}
+
+.judul2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.link li {
+    margin: 30px 0;
+}
+
+.link li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.link li a:hover {
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
